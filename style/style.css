@@ -1,0 +1,14 @@
+/* Your own custom styles should be here */
+
+.navbar-collapse {
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading {
+  font-size: 50px;
+}
+
+li {
+  list-style: none;
+}
