@@ -1,6 +1,6 @@
 /* Your own custom styles should be here */
 
-.navbar-collapse {
+.navbar {
   display: flex;
   justify-content: space-between;
 }
@@ -9,6 +9,53 @@
   font-size: 50px;
 }
 
+.subheading {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.card-title {
+  font-weight: normal;
+}
+
+.midheading {
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.paragraph {
+  font-size: 18px;
+}
+
+.bg {
+  background-color: black;
+}
+
+.size {
+  padding: 100px 0 100px 65px;
+}
+
+.col-4 img {
+  width: 100%;
+  margin: 100px 0;
+}
+
+.footer a {
+  text-decoration: none;
+  color: black;
+}
+
 li {
   list-style: none;
+  text-decoration: none;
+}
+
+.dash {
+  list-style: none;
+  text-indent: -10px;
+}
+
+ul.dash > li:before {
+  content: '- ';
+  color: blue;
 }
